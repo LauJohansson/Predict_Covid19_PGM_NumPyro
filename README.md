@@ -3,20 +3,20 @@
 ***Authors: Anders Fure Nielsen, Daniel Vigild Juhász, Jonas Søbro Christophersen & Lau Johansson*** <br /> <br />
 
 ## Overview
-![alt text](https://raw.githubusercontent.com/LauJohansson/Predict_Covid19_PGM_NumPyro/master/Predictions_image.png?raw=true)
-
 This repository contains hand-in assignment for the DTU course 42186 Model-Based machine learning. 
 
 The notebook contains a implementation of Probabilistic Graph model - a linear dynamical system.
 
 The models are implemented using the probabilistic programming library [NumPyro](https://pyro.ai/numpyro/).
 
+![alt text](https://raw.githubusercontent.com/LauJohansson/Predict_Covid19_PGM_NumPyro/master/Predictions_image.png?raw=true)
 
-This figure illustates the first implemented model - a multivariate linear dynamical system.
+
+The figure below illustates the first implemented model - a multivariate linear dynamical system.
 Z: The latent states
 Y's: At each timestep we sample 5 ys, that is one from each of the 5 countries. (So y1,1 denotes the sampled deaths for the first country at timestep 1.)
 
-![alt text](https://raw.githubusercontent.com/LauJohansson/Predict_Covid19_PGM_NumPyro/master/PGM1.png?raw=true)
+![alt text](https://raw.githubusercontent.com/LauJohansson/Predict_Covid19_PGM_NumPyro/master/PGM1.jpg?raw=true)
 
 
 ## Project scope
