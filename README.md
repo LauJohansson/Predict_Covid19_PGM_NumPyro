@@ -5,7 +5,7 @@
 ## Overview
 This repository contains hand-in assignment for the DTU course 42186 Model-Based machine learning. 
 
-The notebook contains a implementation of Probabilistic Graph model - a linear dynamical system.
+The notebook contains a implementation of a Probabilistic Graph Model - a Linear Dynamical System.
 
 The models are implemented using the probabilistic programming library [NumPyro](https://pyro.ai/numpyro/).
 
