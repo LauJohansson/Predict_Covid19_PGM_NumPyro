@@ -13,8 +13,8 @@ The models are implemented using the probabilistic programming library [NumPyro]
 
 
 The figure below illustates the first implemented model - a multivariate linear dynamical system.
-Z: The latent states
-Y's: At each timestep we sample 5 ys, that is one from each of the 5 countries. (So y1,1 denotes the sampled deaths for the first country at timestep 1.)
+*	Z: The latent states
+*	Y's: At each timestep we sample 5 ys, that is one from each of the 5 countries. (So y1,1 denotes the sampled deaths for the first country at timestep 1.)
 
 ![alt text](https://raw.githubusercontent.com/LauJohansson/Predict_Covid19_PGM_NumPyro/master/PGM1.jpg?raw=true)
 
